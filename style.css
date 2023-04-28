@@ -1,0 +1,131 @@
+body {
+    font-family: 'Nunito Sans';
+}
+
+article h2 {
+    color: rgb(21, 190, 212);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+td {
+    border: 1px dashed;
+    border-color: rgb(235, 235, 235);
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: [start] 1fr [div1] 3fr [end];
+    column-gap: 40px;
+    height: 100%;
+    width: 1100px;
+    margin: auto;
+}
+
+.side-navigation-holder {
+    grid-column-start: start;
+    margin-top: 25px;
+}
+
+.content {
+    grid-column: div1/end;
+    overflow: auto;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.cell-right {
+    text-align: right;
+}
+
+.cell-left {
+    text-align: left;
+}
+
+.navigation-list {
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.navigation-header {
+    color: rgb(21, 190, 212);
+    font-weight: bold;
+}
+
+.table-total,
+.table-header {
+    font-weight: bold;
+}
+
+.side-navigation-holder a {
+    background: linear-gradient(0deg, rgb(21, 190, 212), rgb(21, 190, 212)) no-repeat right bottom / 0 1px;
+    transition: background-size 350ms;
+    padding-bottom: 1px;
+    text-decoration: none;
+    color: #000;
+}
+
+.side-navigation-holder a:where(:hover, :focus-visible) {
+    background-size: 100% 1px;
+    background-position-x: left;
+    color: rgb(21, 190, 212);
+}
+
+a {
+    color: rgb(21, 190, 212);
+}
+
+ul {
+    list-style: '- ';
+}
+
+.side-navigation-holder ul {
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+.side-navigation-holder li {
+    padding-top: 5px;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+h4 {
+    font-size: medium;
+}
+
+h5 {
+    font-size: medium;
+    color: rgb(21, 190, 212);
+    margin-bottom: 0px;
+}
+
+h6 {
+    font-size: medium;
+    font-weight: normal;
+    color: rgb(124, 223, 236);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
