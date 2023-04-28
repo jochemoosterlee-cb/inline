@@ -2,10 +2,6 @@ body {
     font-family: 'Nunito Sans';
 }
 
-article h2 {
-    color: rgb(21, 190, 212);
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -34,11 +30,30 @@ td {
 .content {
     grid-column: div1/end;
     overflow: auto;
+    padding-right: 20px;
 }
 
-.content::-webkit-scrollbar {
+/*.content::-webkit-scrollbar {
     display: none;
-}
+}*/
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: rgb(235, 235, 235);
+    border-radius: 15px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(21, 190, 212);
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
 
 .cell-right {
     text-align: right;
@@ -104,6 +119,7 @@ h2 {
     font-family: 'Barlow', sans-serif;
     font-weight: 800;
     font-size: x-large;
+    color: rgb(21, 190, 212);
 }
 
 h3 {
@@ -128,4 +144,16 @@ h6 {
     color: rgb(124, 223, 236);
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+.no-padding-top {
+    margin-top: 0px;
+}
+
+.no-padding-bottom {
+    margin-bottom: 0px;
+}
+
+h5 + table {
+    margin-top: 21.28px;
 }
