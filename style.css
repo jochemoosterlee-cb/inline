@@ -7,10 +7,26 @@ table {
     border-collapse: collapse;
 }
 
-table,
+/*table,
 td {
-    /*border: 1px dashed;
-    border-color: rgb(235, 235, 235);*/
+    border: 1px dashed;
+    border-color: rgb(235, 235, 235);
+}*/
+
+.header-column {
+
+}
+
+.number-column {
+    width: 25px;
+}
+
+.monetary-column {
+    width: 100px;
+}
+
+.monetary-column-small {
+    width: 80px;
 }
 
 .content-wrapper {
