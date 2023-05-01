@@ -153,7 +153,7 @@ h5 + table {
 .navigation-level-1 {
     font-family: 'Barlow', sans-serif;
     font-weight: 800;
-    font-size: x-large;
+    font-size: large;
     color: rgb(21, 190, 212);
     list-style: none;
 }
@@ -212,17 +212,7 @@ h5 + table {
     height: 22px;
 }
 
-.people {
-    color: #f68b28;
-    font-weight: bold;
-}
-
-.planet {
-    color: #0eb89a;
-    font-weight: bold;
-}
-
-.prosperity {
-    color: #073f83;
+.accent {
+    color: rgb(21, 190, 212);
     font-weight: bold;
 }
