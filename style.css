@@ -22,23 +22,23 @@ td {
     width: 25px;
 }
 
-.monetary-column-larger {
+.column-larger {
     width: 250px;
 }
 
-.monetary-column-large {
+.column-large {
     width: 150px;
 }
 
-.monetary-column {
+.column {
     width: 100px;
 }
 
-.monetary-column-small {
+.column-small {
     width: 80px;
 }
 
-.monetary-column-smaller {
+.column-smaller {
     width: 70px;
 }
 
@@ -92,50 +92,13 @@ td {
     text-align: left;
 }
 
-.navigation-list {
-    vertical-align: top;
-    padding-right: 10px;
-}
-
-.navigation-header {
-    color: rgb(21, 190, 212);
-    font-weight: bold;
-}
-
 .table-total,
 .table-header {
     font-weight: bold;
 }
 
-.side-navigation-holder a {
-    background: linear-gradient(0deg, rgb(21, 190, 212), rgb(21, 190, 212)) no-repeat right bottom / 0 1px;
-    transition: background-size 350ms;
-    padding-bottom: 1px;
-    text-decoration: none;
-    color: #000;
-}
-
-.side-navigation-holder a:where(:hover, :focus-visible) {
-    background-size: 100% 1px;
-    background-position-x: left;
-    color: rgb(21, 190, 212);
-}
-
 a {
     color: rgb(21, 190, 212);
-}
-
-ul {
-    list-style: '- ';
-}
-
-.side-navigation-holder ul {
-    padding-left: 20px;
-    margin-top: 0px;
-}
-
-.side-navigation-holder li {
-    padding-top: 5px;
 }
 
 h1 {
@@ -185,4 +148,81 @@ h6 {
 
 h5 + table {
     margin-top: 21.28px;
+}
+
+.navigation-level-1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+    color: rgb(21, 190, 212);
+    list-style: none;
+}
+
+.navigation-level-2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    color: #000;
+    list-style: '- ';
+}
+
+.navigation-list {
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.navigation-header {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+    color: rgb(21, 190, 212);
+    list-style: none;
+    margin-left: 20px;
+}
+
+.side-navigation-holder a {
+    background: linear-gradient(0deg, rgb(21, 190, 212), rgb(21, 190, 212)) no-repeat right bottom / 0 1px;
+    transition: background-size 350ms;
+    padding-bottom: 1px;
+    text-decoration: none;
+    color: #000;
+}
+
+.side-navigation-holder a:where(:hover, :focus-visible) {
+    background-size: 100% 1px;
+    background-position-x: left;
+    color: rgb(21, 190, 212);
+}
+
+.side-navigation-holder ul {
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+.side-navigation-holder li {
+    padding-top: 5px;
+}
+
+.border-right {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+
+.empty-row {
+    height: 22px;
+}
+
+.people {
+    color: #f68b28;
+    font-weight: bold;
+}
+
+.planet {
+    color: #0eb89a;
+    font-weight: bold;
+}
+
+.prosperity {
+    color: #073f83;
+    font-weight: bold;
 }
