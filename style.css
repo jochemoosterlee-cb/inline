@@ -216,3 +216,53 @@ h5 + table {
     color: rgb(21, 190, 212);
     font-weight: bold;
 }
+
+.ownership {
+    background: url(./icon-merweoord.svg) no-repeat 0 0/contain;
+    padding-left: 80px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.column {
+    line-height: 1;
+}
+
+.market-drivers > .column {
+    text-align: center;
+}
+
+.value {
+    font-size: 2em;
+}
+
+.below-image {
+    margin-top: 15px;
+}
+
+.filled {
+    padding: 20px 40px;
+    position: relative;
+}
+
+.alt {
+    background-color: rgb(205, 235, 243);
+}
+
+.footnote {
+    font-size: .8em;
+}
+
+.spaced {
+    margin-left: 10px;
+}
+
+.locations {
+    font-size: .9em;
+}
